@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F3F6FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LifePulse"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="#1769AA"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Control y seguimiento de tu salud"
+            android:textSize="15sp"
+            android:textColor="#65758B"
+            android:layout_marginBottom="32dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="24dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Iniciar sesión"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:textColor="#203247"
+                android:layout_marginBottom="22dp" />
+
+            <EditText
+                android:id="@+id/etCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Correo electrónico"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:padding="14dp"
+                android:layout_marginBottom="14dp" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:padding="14dp"
+                android:layout_marginBottom="22dp" />
+
+            <Button
+                android:id="@+id/btnIniciarSesion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Iniciar sesión"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:backgroundTint="#1769AA"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnIrRegistro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crear una cuenta"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:backgroundTint="#E4EDF7"
+                android:textColor="#1769AA"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LifePulse • Tu salud, bajo control"
+            android:textColor="#8290A3"
+            android:textSize="12sp"
+            android:layout_marginTop="28dp" />
+
+    </LinearLayout>
+
+</ScrollView>
